@@ -39,3 +39,50 @@ a {
   color: var(--white);
   text-decoration: none;
 }
+
+header {
+  margin-bottom: 150px;
+}
+
+.introduction {
+  width: 350px;
+  margin-bottom: 90px;
+}
+
+.img_workspace {
+  width: 1200px;
+  margin-bottom: 90px;
+}
+
+.lamp {
+  width: 630px;
+}
+.lamp img {
+  margin-bottom: 50px;
+}
+
+.lamp p {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 15px 25px;
+}
+
+.clients {
+  /* width: 358px; */
+  margin: 90px 0;
+}
+
+.chair {
+  width: 1100px;
+}
+
+.chair img {
+  margin-bottom: 50px;
+}
+
+.chair p {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 15px 25px;
+  margin-bottom: 90px;
+}
