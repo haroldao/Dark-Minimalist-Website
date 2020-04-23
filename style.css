@@ -32,7 +32,7 @@ body {
   background-color: var(--black);
   color: var(--white);
   max-width: var(--widthPage);
-  padding: 0 var(--widthPagePaddingLR) 0 var(--widthPagePaddingLR);
+  padding: 150px var(--widthPagePaddingLR) 0 var(--widthPagePaddingLR);
 }
 
 a {
