@@ -1,5 +1,4 @@
 @import "/font.css";
-@import "/responsive.css";
 
 :root {
   --fontBody: 14px;
@@ -33,7 +32,7 @@ body {
   line-height: --lh;
   color: var(--white);
   max-width: var(--widthPage);
-  padding: 150px var(--widthPagePaddingLR) 0 var(--widthPagePaddingLR);
+  padding: 150px var(--widthPagePaddingLR) 150px var(--widthPagePaddingLR);
 }
 
 a {
@@ -121,13 +120,31 @@ footer {
   max-width: 1100px;
   background-color: var(--charcoal);
   padding: 20px;
-  margin-bottom: 160px;
 }
 
 footer p:nth-child(1) {
   margin-bottom: 45px;
 }
 
-footer a:hover {
+footer a {
   color: #6a6a6a;
+}
+
+footer a:hover {
+  color: var(--white);
+}
+@media (max-width: 700px) {
+  body {
+    /* background-color: red; */
+    padding: 100px var(--widthPageMobilePaddingLR) 100px
+      var(--widthPageMobilePaddingLR);
+    font-size: var(--fontBodyMobile);
+  }
+  header {
+    margin-bottom: 80px;
+  }
+
+  img {
+    margin-bottom: 5px !important;
+  }
 }
