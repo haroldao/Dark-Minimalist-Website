@@ -27,4 +27,13 @@
 
 body {
   font-family: "Space Mono", monospace;
+  background-color: var(--black);
+  color: var(--white);
+  max-width: var(--widthPage);
+  padding: 0 --widthPagePaddingLR;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
 }
