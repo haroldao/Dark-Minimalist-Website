@@ -1,3 +1,6 @@
+@import "/font.css";
+@import "/responsive.css";
+
 :root {
   --fontBody: 14px;
   --fontBodyMobile: 12px;
@@ -17,17 +20,14 @@
   --widthPageMobilePaddingLR: 30px;
 }
 
-@import "/font.css";
-
-*,
-*::before,
-*::after {
+*, *: : before, *: : after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
+  margin: 0 auto;
   font-family: "Space Mono", monospace;
   background-color: var(--black);
   line-height: --lh;
@@ -41,22 +41,32 @@ a {
   text-decoration: none;
 }
 
+img,
+iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
 header {
   margin-bottom: 150px;
 }
 
+section {
+  max-width: 1100px;
+}
+
 .introduction {
-  width: 350px;
+  max-width: 350px;
   margin-bottom: 90px;
 }
 
 .img_workspace {
-  width: 1200px;
+  max-width: 1200px;
   margin-bottom: 90px;
 }
 
 .lamp {
-  width: 630px;
+  max-width: 630px;
 }
 .lamp img {
   margin-bottom: 50px;
@@ -73,8 +83,12 @@ header {
   margin: 90px 0;
 }
 
+.clients p {
+  max-width: 360px;
+}
+
 .chair {
-  width: 1100px;
+  max-width: 1100px;
 }
 
 .chair img {
@@ -89,13 +103,13 @@ header {
 }
 
 .livingroom {
-  width: 1200px;
+  max-width: 1200px;
   margin-bottom: 90px;
 }
 
 .process {
   margin-bottom: 90px;
-  width: 1100px;
+  max-width: 1100px;
 }
 .process h2 {
   padding-bottom: 50px;
@@ -104,8 +118,16 @@ header {
 }
 
 footer {
-  width: 1100px;
+  max-width: 1100px;
   background-color: var(--charcoal);
   padding: 20px;
   margin-bottom: 160px;
+}
+
+footer p:nth-child(1) {
+  margin-bottom: 45px;
+}
+
+footer a:hover {
+  color: #6a6a6a;
 }
