@@ -1,0 +1,30 @@
+:root {
+  --fontBody: 14px;
+  --fontBodyMobile: 12px;
+
+  --lh: 1.5;
+  --lhMobile: 1.5;
+
+  --white: #ffffff;
+  --black: #000000;
+  --charcoal: #1a1a1a;
+
+  --heading: 24px;
+  --headingMobile: 12px;
+
+  --widthPage: 1400px;
+  --widthPagePaddingLR: 100px;
+  --widthPageMobilePaddingLR: 30px;
+}
+
+@import "/font.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
