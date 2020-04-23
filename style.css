@@ -30,6 +30,7 @@
 body {
   font-family: "Space Mono", monospace;
   background-color: var(--black);
+  line-height: --lh;
   color: var(--white);
   max-width: var(--widthPage);
   padding: 150px var(--widthPagePaddingLR) 0 var(--widthPagePaddingLR);
@@ -85,4 +86,25 @@ header {
   color: var(--black);
   padding: 15px 25px;
   margin-bottom: 90px;
+}
+
+.livingroom {
+  width: 1200px;
+}
+
+.process {
+  margin-bottom: 90px;
+  width: 1100px;
+}
+.process h2 {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: solid white;
+}
+
+footer {
+  width: 1100px;
+  background-color: var(--charcoal);
+  padding: 20px;
+  margin-bottom: 160px;
 }
